@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f0f2f5; /* no background color */
+        }
+
+        .profile-container {
+            width: 1300px; /* Increase the width as needed */
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .cover-photo {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .profile-photo {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 8px solid white;
+            margin: -200px auto 10px;
+            display: block;
+        }
+
+        .user-info {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 10px 0;
+        }
+
+        p {
+            color: #65676b;
+        }
+
+        /* Outside Buttons */
+        .button-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .button-container {
+            text-align: center;
+            flex: 1;
+        }
+
+        .button-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .button {
+            margin: 10px;
+            padding: 15px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            position: relative;
+        }
+
+        .button span {
+            margin-top: 10px; /* Move text below the button */
+            z-index: 1; /* Place text above the button */
+        }
+
+        .category-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .emergency .button {
+            background-color: #e74c3c; /* Red color for Emergency category */
+        }
+
+        .social .button {
+            background-color: #2ecc71; /* Green color for Social Interaction category */
+        }
+
+        .education .button {
+            background-color: #f39c12; /* Yellow color for Education category */
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img src="/image/co.jpg" alt="Cover Photo" class="cover-photo">
+        <img src="/image/poo.jpg" alt="Profile Photo" class="profile-photo">
+        <div class="user-info">
+            <h1>Ujjwal Pandit</h1>
+            <p>CSE 4TH YEAR</p>
+        </div>
+    </div>
+
+    <!-- Button Sections -->
+    <div class="button-section">
+        <div class="button-container emergency">
+            <div class="category-title">Emergency</div>
+            <div class="button-row">
+                <button class="button"><span>Health</span></button>
+                <button class="button"><span>Current Room</span></button>
+                <button class="button"><span>Map</span></button>
+                <button class="button"><span>All Information</span></button>
+            </div>
+        </div>
+
+        <div class="button-container social">
+            <div class="category-title">Social Interaction</div>
+            <div class="button-row">
+                <button class="button"><span>Profile</span></button>
+                <button class="button"><span>Meet</span></button>
+                <button class="button"><span>Movie Recommendation</span></button>
+                <button class="button"><span>music Recommendation</span></button>
+                <button class="button"><span>Best Places To Vist In Kalyani</span></button>
+                <button class="button"><span>Sports</span></button>
+                <button class="button"><span>Gym</span></button>
+                <button class="button"><span>Fest</span></button>
+                <button class="button"><span>Cultural Evevnt</span></button>
+            </div>
+        </div>
+
+        <div class="button-container education">
+            <div class="category-title">Education</div>
+            <div class="button-row">
+                <button class="button"><span>Gate Preparation</span></button>
+                <button class="button"><span>College Study</span></button>
+                <button class="button"><span>Grade Calculation</span></button>
+                <button class="button"><span>Learning English</span></button>
+            </div>
+        </div>
+    </div>
+    <a href="index.html"><-</a>
+</body>
+</html>
