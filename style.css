@@ -28,7 +28,7 @@ header{
    
 }
 .logo {
-    font-size: 2em;
+    font-size: 3em;
     color: #f99a01;
     user-select: none;
     
@@ -86,8 +86,8 @@ header{
 
 .wrapper {
 position: relative;
-width: 400px;
-height: 440px;
+width: 450px;
+height: 540px;
 background: transparent;
 border: 2px solid rgba(255, 255, 255, 0.5);
 border-radius: 20px;
@@ -166,14 +166,14 @@ transition: transform .5s ease height .2s ease;
 .input-box{
     position: relative;
     width: 100%;
-    height: 50px;
+    height: 60px;
     border-bottom: 2px solid  #faf9f8;
     margin: 30px 0;
 }
 
 .input-box label{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 5px;
     transform: translateY(-50%);
     font-size: 1em;
@@ -212,12 +212,13 @@ transition: transform .5s ease height .2s ease;
 }
 
 .remember-forgot{
-    font-size: .9em;
+    font-size: .99em;
     color: #f6f6f7;
     font-weight: 500;
-    margin: -15px 0 15;
+    margin: 15px 0 ;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .remember-forgot label input{
@@ -270,3 +271,7 @@ transition: transform .5s ease height .2s ease;
     text-decoration: underline;
 
 }
+.input-group{
+    height: 280px;
+}
+.i
