@@ -78,7 +78,25 @@ header{
     font-weight: 500;
     margin-left: 40px;
     transition: .5s;
+    
 }
+.navigation .robin(){
+width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    outline: none;
+    border-radius: 6px;
+    backdrop-filter: blur(6px);
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+
 .navigation .btnLogin-popup:hover{
     background: #fff;
     color: #162938;
@@ -274,4 +292,3 @@ transition: transform .5s ease height .2s ease;
 .input-group{
     height: 280px;
 }
-.i

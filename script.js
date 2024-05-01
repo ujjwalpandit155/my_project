@@ -7,7 +7,9 @@ const wrapper = document.querySelector('.wrapper');
  const iconClose = document.querySelector('.icon-close');
 
  
-
+ function showOptions() {
+    document.getElementById("options").style.display = "block";
+}
 
 //  registerLink.addEventListener('click', ()=> {
 //     wrapper.classList.add('active');
