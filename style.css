@@ -80,7 +80,7 @@ header{
     transition: .5s;
     
 }
-.navigation .robin(){
+.navigation .btn{
 width: 130px;
     height: 50px;
     background: transparent;
